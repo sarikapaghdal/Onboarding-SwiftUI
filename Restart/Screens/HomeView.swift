@@ -44,6 +44,7 @@ struct HomeView: View {
             
             Button(action: {
                 withAnimation {
+                    playSound(sound: "success", Type: "m4a")
                     isOnBoardingViewActive = true
                 }
             }) {
